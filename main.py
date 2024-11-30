@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
 
 matches = pd.read_csv("matches.csv", index_col = 0)
 
